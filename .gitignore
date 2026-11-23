@@ -1,0 +1,23 @@
+# compilação e caches
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+*.apk
+*.aab
+
+# chave de assinatura: nunca no repositório (guardar cópia à parte)
+assinatura/
+*.jks
+*.keystore
+
+# dados reais e ficheiros de outras ferramentas
+*.xlsx
+data/
+
+# IDE / sistema
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

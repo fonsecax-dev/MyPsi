@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- targetCell* acima da grelha habitual: o launcher limita ao ecrã inteiro disponível. -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_descricao"
+    android:initialLayout="@layout/glance_default_loading_layout"
+    android:minWidth="250dp"
+    android:minHeight="250dp"
+    android:minResizeWidth="110dp"
+    android:minResizeHeight="110dp"
+    android:targetCellWidth="5"
+    android:targetCellHeight="6"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen" />
